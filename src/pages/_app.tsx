@@ -1,12 +1,13 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import { DefaultSeo } from "next-seo";
-import type { AppProps } from "next/app";
-import Head from "next/head";
+import { DefaultSeo } from 'next-seo';
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
 
-import defaultSEOConfig from "../../next-seo.config";
-import { Chakra } from "lib/components/Chakra";
-import Layout from "lib/layout";
-import "lib/styles/globals.css";
+import defaultSEOConfig from '../../next-seo.config';
+import { EventsProvider } from 'contexts/EventsContext';
+import { Chakra } from 'lib/components/Chakra';
+import Layout from 'lib/layout';
+import 'lib/styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
@@ -19,7 +20,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       </Head>
       <DefaultSeo {...defaultSEOConfig} />
       <Layout>
-        <Component {...pageProps} />
+        <EventsProvider>
+          <Component {...pageProps} />
+        </EventsProvider>
       </Layout>
     </Chakra>
   );
