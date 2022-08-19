@@ -44,7 +44,9 @@ export function EventCardEdit({ data }: Events) {
     return (
       <Table mt={8} variant="simple">
         <Tbody>
-          <Td>Nenhum Show encontrado</Td>
+          <Tr>
+            <Td>Nenhum Show encontrado</Td>
+          </Tr>
         </Tbody>
       </Table>
     );
