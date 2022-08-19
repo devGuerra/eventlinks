@@ -41,6 +41,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/app-icon.png" /> */}
           <link rel="manifest" href="/manifest.json" />
         </Head>
+
         <body>
           <ColorModeScript
             initialColorMode={customTheme.config?.initialColorMode}
