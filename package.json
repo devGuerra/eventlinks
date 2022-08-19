@@ -1,6 +1,6 @@
 {
   "name": "nextarter-chakra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "author": "sozonome",
   "scripts": {
@@ -22,17 +22,24 @@
     "@chakra-ui/react": "^2.2.6",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@radix-ui/react-dialog": "^1.0.0",
+    "@radix-ui/react-radio-group": "^1.0.0",
     "framer-motion": "^6.5.1",
     "next": "12.2.0",
     "next-seo": "^5.5.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
+    "react-device-detect": "^2.2.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5",
+    "use-context-selector": "^1.4.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.3",
     "@commitlint/cz-commitlint": "^17.0.3",
     "@types/react": "^18.0.17",
+    "@types/styled-components": "^5.1.26",
     "commitizen": "^4.2.5",
     "commitlint": "^17.0.3",
     "cross-env": "^7.0.3",
