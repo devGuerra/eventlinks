@@ -4,9 +4,9 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import defaultSEOConfig from '../../next-seo.config';
-import { EventsProvider } from 'contexts/EventsContext';
-import { Chakra } from 'lib/components/Chakra';
-import Layout from 'lib/layout';
+import { EventsProvider } from '../contexts/EventsContext';
+import { Chakra } from '../lib/components/Chakra';
+import Layout from '../lib/layout';
 import 'lib/styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

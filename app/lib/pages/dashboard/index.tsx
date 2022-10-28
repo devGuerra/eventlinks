@@ -2,10 +2,10 @@ import { Box, Flex } from '@chakra-ui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useContextSelector } from 'use-context-selector';
 
+import { EventCardEdit } from '../../../components/EventCardEdit';
 import { SearchForm } from '../../../components/SearchForm';
 import { Summary } from '../../../components/Summary';
-import { EventCardEdit } from 'components/EventCardEdit';
-import { EventsContext } from 'contexts/EventsContext';
+import { EventsContext } from '../../../contexts/EventsContext';
 
 export default function Dashboard() {
   const events = useContextSelector(EventsContext, (ctx) => {

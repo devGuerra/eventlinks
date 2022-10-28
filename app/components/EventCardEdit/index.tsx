@@ -10,8 +10,8 @@ import {
 } from '@chakra-ui/react';
 import { Eye } from 'phosphor-react';
 
-import useWindowSize from 'hooks/useWindowSize';
-import { dateFormatter, timeFormatter } from 'utils/formatter';
+import useWindowSize from '../../hooks/useWindowSize';
+import { dateFormatter, timeFormatter } from '../../utils/formatter';
 
 type EventCardEditProps = {
   id: number;

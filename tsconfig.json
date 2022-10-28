@@ -17,15 +17,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "src",
-    "incremental": true
+    "baseUrl": "app",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src",
-    "commitlint.config.js"
+    "app",
+    "commitlint.config.js",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

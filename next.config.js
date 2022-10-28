@@ -2,7 +2,8 @@
 module.exports = {
   swcMinify: true,
   reactStrictMode: true,
+  experimental: { appDir: true },
   eslint: {
-    dirs: ["src"],
+    dirs: ['src'],
   },
 };
