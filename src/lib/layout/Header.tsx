@@ -27,9 +27,7 @@ export function Header() {
         direction={['column', 'row']}
       >
         <Link href="/">
-          <a>
-            <Image src={logoImg} alt="" />
-          </a>
+          <Image src={logoImg} alt="" />
         </Link>
         <Flex align="center" justify={['space-between']} w={['100%', 'auto']}>
           <ThemeToggle />

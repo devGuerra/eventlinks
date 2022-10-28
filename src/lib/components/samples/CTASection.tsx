@@ -7,7 +7,7 @@ const CTASection = () => {
     <Box textAlign="center">
       <Flex justifyContent="center" alignItems="center" gap={2}>
         <Link href="/dashboard">
-          <Button as="a" leftIcon={<AiFillGithub />} size="sm" cursor="pointer">
+          <Button leftIcon={<AiFillGithub />} size="sm" cursor="pointer">
             Events
           </Button>
         </Link>
