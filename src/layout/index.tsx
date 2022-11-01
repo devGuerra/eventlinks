@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <Box h="100vh">
       <Header />
-      <Box as="main" maxW="container.lg" margin="0 auto" mt={-20}>
+      <Box as="main" maxW="container.lg" margin="0 auto">
         {children}
       </Box>
       <Footer />

@@ -17,14 +17,14 @@ export function Header() {
   const { onOpen, isOpen, onClose } = useDisclosure();
 
   return (
-    <Heading pb={32} bg={useColorModeValue('gray.600', 'gray.900')}>
+    <Heading pb={8} bg={useColorModeValue('gray.600', 'gray.900')}>
       <Flex
         maxW="container.lg"
         align="center"
         justify="space-between"
         margin="0 auto"
         pt={8}
-        px={6}
+        // px={6}
         direction={['column', 'row']}
       >
         <Link href="/">
