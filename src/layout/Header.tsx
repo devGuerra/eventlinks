@@ -8,8 +8,8 @@ import {
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logoImg from '../../assets/logo.svg';
-import { NewTransactionModal } from '../../components/NewEventModal';
+import logoImg from '../assets/logo.svg';
+import { NewTransactionModal } from '../components/NewEventModal';
 
 import ThemeToggle from './ThemeToggle';
 

@@ -1,9 +1,9 @@
 import { Flex } from '@chakra-ui/react';
 import { NextSeo } from 'next-seo';
 
-import CTASection from '../../components/samples/CTASection';
-import SomeImage from '../../components/samples/SomeImage';
-import SomeText from '../../components/samples/SomeText';
+import CTASection from '../components/CTASection';
+import SomeImage from '../components/SomeImage';
+import SomeText from '../components/SomeText';
 
 const Home = () => {
   return (
